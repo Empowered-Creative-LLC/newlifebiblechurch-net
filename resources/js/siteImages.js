@@ -40,12 +40,13 @@ export const whoWeAre = {
 };
 
 export const ministryTeam = [
-    { name: 'Justin Dunning', title: 'Ministry', photo: siteImage('Who We Are/4I3A9373.jpg') },
-    { name: 'Noelle Hobson', title: 'Ministry', photo: siteImage('Who We Are/4I3A9376.jpg') },
-    { name: 'Neil Mohler', title: 'Ministry', photo: siteImage('Who We Are/4I3A9380.jpg') },
-    { name: 'Tyler Paulson', title: 'Ministry', photo: siteImage('Who We Are/Tyler Paulson.jpg') },
-    { name: 'Maddie Sager', title: 'Ministry', photo: siteImage('Who We Are/4I3A9390.jpg') },
-    { name: 'Bob Searer', title: 'Ministry', photo: siteImage('Who We Are/4I3A9386.jpg') },
+    { name: 'Justin Dunning', title: 'Youth Ministry', photo: siteImage('Who We Are/4I3A9373.jpg') },
+    { name: 'Noelle Hobson', title: 'First Impressions', photo: siteImage('Who We Are/4I3A9376.jpg') },
+    { name: 'Neil Mohler', title: 'Worship Ministry', photo: siteImage('Who We Are/4I3A9380.jpg') },
+    { name: 'Tyler Paulson', title: 'Children's Ministry', photo: siteImage('Who We Are/Tyler Paulson.jpg') },
+    { name: 'Maddie Sager', title: 'Administrative Assistant', photo: siteImage('Who We Are/4I3A9390.jpg') },
+    { name: 'Bob Searer', title: 'Adult Groups', photo: siteImage('Who We Are/4I3A9386.jpg') },
+    { name: 'Connor Umholtz', title: 'Operations Manager', photo: siteImage('Who We Are/4I3A4809.png') },
 ];
 
 export const ministries = {
