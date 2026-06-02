@@ -13,25 +13,7 @@ class SermonController extends Controller
     {
         $sermons = Sermon::query()->publishedLatest()->get();
 
-        $latest = $sermons->first();
-
-        $featured = $latest
-            ? [
-                'title' => $latest->title,
-                'description' => $latest->description,
-                'slug' => $latest->slug,
-                'embedUrl' => VideoEmbed::toEmbedUrl($latest->video_url),
-                'posterUrl' => VideoEmbed::posterUrl($latest->video_url),
-            ]
-            : [
-                'title' => 'Latest Message',
-                'description' => 'Biblical teaching for everyday life. New messages will appear here when published.',
-                'slug' => null,
-                'embedUrl' => null,
-                'posterUrl' => null,
-            ];
-
-        $sermonList = $sermons->skip(1)->values()->map(fn (Sermon $s) => [
+        $sermonList = $sermons->map(fn (Sermon $s) => [
             'title' => $s->title,
             'description' => $s->description,
             'slug' => $s->slug,
@@ -40,7 +22,6 @@ class SermonController extends Controller
         ]);
 
         return Inertia::render('Media', [
-            'featured' => $featured,
             'sermons' => $sermonList,
         ]);
     }
