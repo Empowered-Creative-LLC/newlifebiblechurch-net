@@ -24,7 +24,7 @@ const values = ['Biblical Authority', 'Next Generation', 'Generosity', 'Celebrat
         <section class="bg-white py-16">
             <SectionContainer wrapper-class="text-center">
                 <div class="mb-8">
-                    <PrimaryButton :href="route('statement-of-faith')">View Our Statement of Faith</PrimaryButton>
+                    <PrimaryButton href="/documents/statement-of-faith.pdf">View Our Statement of Faith</PrimaryButton>
                 </div>
                 <h2 class="text-3xl font-bold text-primary md:text-4xl">Our Story</h2>
                 <p class="mx-auto mt-8 max-w-3xl leading-relaxed text-slate-700">
