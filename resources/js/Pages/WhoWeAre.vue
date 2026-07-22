@@ -7,7 +7,24 @@ import { ministryTeam, whoWeAre } from '@/siteImages';
 import { Head } from '@inertiajs/vue3';
 import { route } from 'ziggy-js';
 
-const values = ['Biblical Authority', 'Next Generation', 'Generosity', 'Celebration'];
+const values = [
+    {
+        title: 'Biblical Authority',
+        description: "We structure our lives according to God's word.",
+    },
+    {
+        title: 'Next Generation',
+        description: 'We help children and youth thrive in Christ.',
+    },
+    {
+        title: 'Generosity',
+        description: 'We give to expand the impact of Jesus.',
+    },
+    {
+        title: 'Celebration',
+        description: 'We celebrate the Holy Spirit at work.',
+    },
+];
 </script>
 
 <template>
@@ -98,11 +115,24 @@ const values = ['Biblical Authority', 'Next Generation', 'Generosity', 'Celebrat
                 <h2 class="text-center text-3xl font-bold text-primary">Our Values</h2>
                 <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                     <div
-                        v-for="title in values"
-                        :key="title"
-                        class="flex min-h-[148px] items-center justify-center rounded-sm border-2 border-primary bg-white p-6"
+                        v-for="value in values"
+                        :key="value.title"
+                        class="group relative flex min-h-[148px] items-center justify-center overflow-hidden rounded-sm border-2 border-primary bg-white p-6 transition-all duration-300 hover:border-primary/80"
+                        role="button"
+                        :aria-label="`${value.title}: ${value.description}`"
+                        tabindex="0"
                     >
-                        <p class="text-center font-semibold text-primary">{{ title }}</p>
+                        <p class="text-center font-semibold text-primary transition-opacity duration-300 group-hover:opacity-0 group-focus:opacity-0">
+                            {{ value.title }}
+                        </p>
+                        <div
+                            class="absolute inset-0 flex items-center justify-center bg-primary p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus:opacity-100"
+                            aria-hidden="true"
+                        >
+                            <p class="text-center text-sm leading-relaxed text-white">
+                                {{ value.description }}
+                            </p>
+                        </div>
                     </div>
                 </div>
             </SectionContainer>
