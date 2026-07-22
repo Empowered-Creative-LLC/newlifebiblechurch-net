@@ -41,7 +41,14 @@ const values = [
         <section class="bg-white py-16">
             <SectionContainer wrapper-class="text-center">
                 <div class="mb-8">
-                    <PrimaryButton :href="route('statement-of-faith')">View Our Statement of Faith</PrimaryButton>
+                    <a
+                        href="/statement-of-faith.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center justify-center rounded-sm bg-accent px-6 py-3 text-xs font-bold uppercase tracking-wider text-white shadow-sm transition hover:bg-accent/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                    >
+                        Statement of Faith
+                    </a>
                 </div>
                 <h2 class="text-3xl font-bold text-primary md:text-4xl">Our Story</h2>
                 <p class="mx-auto mt-8 max-w-3xl leading-relaxed text-slate-700">
