@@ -11,6 +11,7 @@ Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/start-here', [PageController::class, 'startHere'])->name('start-here');
 Route::get('/connect', [PageController::class, 'connect'])->name('connect');
 Route::get('/who-we-are', [PageController::class, 'whoWeAre'])->name('who-we-are');
+Route::get('/statement-of-faith', [PageController::class, 'statementOfFaith'])->name('statement-of-faith');
 Route::get('/ministries', [PageController::class, 'ministries'])->name('ministries');
 Route::get('/ministries/kids', [PageController::class, 'kidsMinistry'])->name('ministries.kids');
 Route::get('/ministries/youth', [PageController::class, 'youthMinistry'])->name('ministries.youth');

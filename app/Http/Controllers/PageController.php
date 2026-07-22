@@ -28,6 +28,11 @@ class PageController extends Controller
         return Inertia::render('WhoWeAre');
     }
 
+    public function statementOfFaith(): Response
+    {
+        return Inertia::render('StatementOfFaith');
+    }
+
     public function ministries(): Response
     {
         return Inertia::render('Ministries/Index');
