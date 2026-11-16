@@ -23,6 +23,7 @@ const cards = [
 
         <HeroSection
             :image-src="youthMinistry.hero"
+            image-position="80% 50%"
             eyebrow="Youth Ministry"
             title="A Place for Students to Grow in Faith and Friendship"
             lead="Middle and High School Students"
