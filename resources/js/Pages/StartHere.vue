@@ -86,7 +86,7 @@ const faqs = [
                     <div class="order-2 overflow-hidden rounded-sm shadow-lg ring-1 ring-neutral-tan/20 lg:order-1">
                         <img
                             :src="startHere.whatToExpect"
-                            alt="People greeting at church"
+                            alt="People talking together in a church kitchen"
                             class="aspect-[3/4] min-h-[320px] w-full object-cover lg:aspect-auto lg:min-h-[420px]"
                         />
                     </div>
@@ -126,7 +126,7 @@ const faqs = [
                 <h2 class="text-center text-3xl font-bold text-primary md:text-4xl">Ministries</h2>
                 <div class="mt-12 grid gap-8 md:grid-cols-3 md:gap-6">
                     <div class="flex flex-col overflow-hidden rounded-sm border border-neutral-tan/40 bg-white shadow-md">
-                        <img :src="startHere.ministryKids" alt="" class="aspect-[4/3] w-full object-cover" />
+                        <img :src="startHere.ministryKids" alt="Children and volunteers playing on the floor of the kids ministry room" class="aspect-[4/3] w-full object-cover" />
                         <div class="flex flex-1 flex-col bg-primary px-5 py-6 text-white">
                             <h3 class="text-lg font-bold uppercase tracking-wide">Kids Ministry</h3>
                             <p class="mt-2 text-xs font-medium uppercase tracking-wide text-white/75">
@@ -144,7 +144,7 @@ const faqs = [
                         </div>
                     </div>
                     <div class="flex flex-col overflow-hidden rounded-sm border border-neutral-tan/40 bg-white shadow-md">
-                        <img :src="startHere.ministryYouth" alt="" class="aspect-[4/3] w-full object-cover" />
+                        <img :src="startHere.ministryYouth" alt="Students gathered in a backyard around a water slide" class="aspect-[4/3] w-full object-cover" />
                         <div class="flex flex-1 flex-col bg-primary px-5 py-6 text-white">
                             <h3 class="text-lg font-bold uppercase tracking-wide">Youth Ministry</h3>
                             <p class="mt-2 text-xs font-medium uppercase tracking-wide text-white/75">
@@ -162,7 +162,7 @@ const faqs = [
                         </div>
                     </div>
                     <div class="flex flex-col overflow-hidden rounded-sm border border-neutral-tan/40 bg-white shadow-md">
-                        <img :src="startHere.ministryAdult" alt="" class="aspect-[4/3] w-full object-cover" />
+                        <img :src="startHere.ministryAdult" alt="Adults talking together in the church gym" class="aspect-[4/3] w-full object-cover" />
                         <div class="flex flex-1 flex-col bg-primary px-5 py-6 text-white">
                             <h3 class="text-lg font-bold uppercase tracking-wide">Adult Groups</h3>
                             <p class="mt-2 text-xs font-medium uppercase tracking-wide text-white/75">

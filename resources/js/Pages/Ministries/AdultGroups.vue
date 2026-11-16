@@ -43,7 +43,7 @@ const cards = [
                         </p>
                     </div>
                     <div class="overflow-hidden rounded-sm shadow-lg">
-                        <img :src="adultGroups.intro" alt="Adults in community" class="h-full w-full object-cover" />
+                        <img :src="adultGroups.intro" alt="A leader speaking to the group from the platform" class="h-full w-full object-cover" />
                     </div>
                 </div>
             </SectionContainer>
@@ -55,7 +55,7 @@ const cards = [
                     <div class="order-2 overflow-hidden rounded-sm shadow-lg lg:order-1">
                         <img
                             :src="adultGroups.whatToExpect"
-                            alt="Group discussion"
+                            alt="A teacher pointing to a memory verse poster as a class listens"
                             class="h-full w-full object-cover"
                         />
                     </div>

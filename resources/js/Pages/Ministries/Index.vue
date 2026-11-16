@@ -16,7 +16,7 @@ const cards = [
         body: 'A safe, joyful environment where children learn the good news of Jesus through age-appropriate teaching, caring volunteers, and fun that points to Christ.',
         href: route('ministries.kids'),
         image: ministries.kids,
-        alt: 'Children smiling during kids ministry',
+        alt: 'Children and volunteers playing on the floor of the kids ministry room',
     },
     {
         id: 'youth',
@@ -25,7 +25,7 @@ const cards = [
         body: 'Students build real friendships and grow in faith alongside peers and caring leaders through worship, teaching, and honest conversation.',
         href: route('ministries.youth'),
         image: ministries.youth,
-        alt: 'Students together at youth ministry',
+        alt: 'Young people outside by a backyard water slide',
     },
     {
         id: 'adults',
@@ -34,7 +34,7 @@ const cards = [
         body: 'Connect in smaller gatherings for prayer, Scripture, and life-on-life encouragement—because we grow best in relationship.',
         href: route('ministries.adults'),
         image: ministries.adults,
-        alt: 'Adults in community at a small group',
+        alt: 'Adults and children sitting together at tables',
     },
 ];
 </script>

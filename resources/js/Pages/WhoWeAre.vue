@@ -70,7 +70,7 @@ const values = [
                         <div class="relative h-48 w-full shrink-0 overflow-hidden">
                             <img
                                 :src="whoWeAre.purpose"
-                                alt=""
+                                alt="A leader speaking from the stage with Together on the screen"
                                 class="absolute inset-0 h-full w-full object-cover object-top"
                             />
                         </div>
@@ -86,7 +86,7 @@ const values = [
                         <div class="relative h-48 w-full shrink-0 overflow-hidden">
                             <img
                                 :src="whoWeAre.mission"
-                                alt=""
+                                alt="Welcome Center signs beside the seating area"
                                 class="absolute inset-0 h-full w-full object-cover object-top"
                             />
                         </div>
@@ -101,7 +101,7 @@ const values = [
                         <div class="relative h-48 w-full shrink-0 overflow-hidden">
                             <img
                                 :src="whoWeAre.vision"
-                                alt=""
+                                alt="People gathered on the lawn under the trees"
                                 class="absolute inset-0 h-full w-full object-cover object-top"
                             />
                         </div>

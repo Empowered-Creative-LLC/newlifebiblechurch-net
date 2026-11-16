@@ -46,7 +46,7 @@ const cards = [
                         </ul>
                     </div>
                     <div class="overflow-hidden rounded-sm shadow-lg">
-                        <img :src="kidsMinistry.intro" alt="Children" class="h-full w-full object-cover" />
+                        <img :src="kidsMinistry.intro" alt="Children and a volunteer at a table in the kids ministry room" class="h-full w-full object-cover" />
                     </div>
                 </div>
             </SectionContainer>
@@ -56,7 +56,7 @@ const cards = [
             <SectionContainer>
                 <div class="grid items-center gap-12 lg:grid-cols-2">
                     <div class="order-2 overflow-hidden rounded-sm shadow-lg lg:order-1">
-                        <img :src="kidsMinistry.whatToExpect" alt="Teaching" class="h-full w-full object-cover" />
+                        <img :src="kidsMinistry.whatToExpect" alt="Kids and adults working together at small tables" class="h-full w-full object-cover" />
                     </div>
                     <div class="order-1 lg:order-2">
                         <h2 class="text-3xl font-bold text-primary md:text-4xl">What to Expect</h2>

@@ -1,39 +1,40 @@
 import { siteImage } from '@/utils/siteImage';
 
-/** Labeled folders under public/images — matches design exports per page. */
+/** Labeled folders under public/images — matches design exports per page.
+ * Page photos in images/album/ are the church's own photos (ticket #10024). */
 export const home = {
-    hero: siteImage('Home page/Hero.png'),
-    joinSunday: siteImage('Home page/Untitled design (18).png'),
-    kids: siteImage('Home page/Kids.png'),
-    youth: siteImage('Home page/Youth.png'),
-    whatToExpect: siteImage('Home page/What to expect.png'),
-    getConnected: siteImage('Home page/Get connected.png'),
-    meetTeam: siteImage('Home page/Team.png'),
-    footerCta: siteImage('Home page/Footer.png'),
+    hero: siteImage('album/home-hero.jpg'),
+    joinSunday: siteImage('album/home-join-sunday.jpg'),
+    kids: siteImage('album/home-kids.jpg'),
+    youth: siteImage('album/home-youth.jpg'),
+    whatToExpect: siteImage('album/home-what-to-expect.jpg'),
+    getConnected: siteImage('album/home-get-connected.jpg'),
+    meetTeam: siteImage('album/home-worship-team.jpg'),
+    footerCta: siteImage('album/home-footer.jpg'),
 };
 
 /** Start Here page image map */
 export const startHere = {
-    hero: siteImage('Start Here/start-here-adult-groups.png'),
+    hero: siteImage('album/start-here-hero.jpg'),
     joinSunday: siteImage('Start Here/ESC.jpg'),
-    whatToExpect: siteImage('Start Here/Your paragraph text (15).png'),
-    ministryKids: siteImage('Home page/Kids.png'),
-    ministryYouth: siteImage('Media/start-here-youth-ministry.png'),
-    ministryAdult: siteImage('Start Here/start-here-adult-groups.png'),
-    walkAlone: siteImage('Start Here/start-here-walk-alone.png'),
+    whatToExpect: siteImage('album/start-here-what-to-expect.jpg'),
+    ministryKids: siteImage('album/home-kids.jpg'),
+    ministryYouth: siteImage('album/start-here-youth.jpg'),
+    ministryAdult: siteImage('album/start-here-hero.jpg'),
+    walkAlone: siteImage('album/start-here-walk-alone.jpg'),
 };
 
 export const connect = {
-    hero: siteImage('Connect/Untitled design (37).png'),
+    hero: siteImage('album/connect-hero.jpg'),
     comeAsYouAre: siteImage('Connect/Untitled design (36).png'),
 };
 
 export const whoWeAre = {
-    hero: siteImage('Who We Are/Hero.png'),
-    purpose: siteImage('Who We Are/Your paragraph text (21).png'),
-    mission: siteImage('Who We Are/Your paragraph text (17).png'),
-    vision: siteImage('Who We Are/Your paragraph text (19).png'),
-    welcome: siteImage('Who We Are/Untitled design (22).png'),
+    hero: siteImage('album/who-we-are-hero.jpg'),
+    purpose: siteImage('album/who-we-are-purpose.jpg'),
+    mission: siteImage('album/who-we-are-mission.jpg'),
+    vision: siteImage('album/who-we-are-vision.jpg'),
+    welcome: siteImage('album/who-we-are-welcome.jpg'),
     elderNate: siteImage('Who We Are/4I3A9394.jpg'),
     elderJeff: siteImage('Who We Are/Jeff Marble.jpg'),
     elderJohn: siteImage('Who We Are/Goasdone, John.jpg'),
@@ -50,20 +51,20 @@ export const ministryTeam = [
 ];
 
 export const ministries = {
-    hero: siteImage('Ministries Landing/Untitled design (25).png'),
-    kids: siteImage('Home page/Kids.png'),
-    youth: siteImage('Home page/Youth.png'),
-    adults: siteImage('Home page/Get connected.png'),
+    hero: siteImage('album/ministries-hero.jpg'),
+    kids: siteImage('album/home-kids.jpg'),
+    youth: siteImage('album/home-youth.jpg'),
+    adults: siteImage('album/home-get-connected.jpg'),
     youBelong: siteImage('Ministries Landing/Untitled design (27).png'),
 };
 
 export const kidsMinistry = {
-    hero: siteImage('Kids Ministry/Untitled design (30).png'),
+    hero: siteImage('album/kids-hero.jpg'),
     /** Add `public/images/Kids Ministry/CBC Jr Camp promo.png` when artwork is ready. */
     cbcJrCampPromo: siteImage('Kids Ministry/CBC Jr Camp promo.png'),
-    intro: siteImage('Kids Ministry/Your paragraph text (1).png'),
-    whatToExpect: siteImage('Kids Ministry/Untitled design (29).png'),
-    cta: siteImage('Kids Ministry/Untitled design (31).png'),
+    intro: siteImage('album/kids-intro.jpg'),
+    whatToExpect: siteImage('album/kids-what-to-expect.jpg'),
+    cta: siteImage('album/kids-cta.jpg'),
     experience: [
         siteImage('Kids Ministry/Bible.png'),
         siteImage('Kids Ministry/Leader.png'),
@@ -73,10 +74,10 @@ export const kidsMinistry = {
 };
 
 export const adultGroups = {
-    hero: siteImage('Adult Groups/Untitled design (15).png'),
-    intro: siteImage('Adult Groups/Untitled design (16).png'),
-    whatToExpect: siteImage('Adult Groups/Untitled design (17).png'),
-    cta: siteImage('Adult Groups/Untitled design (20).png'),
+    hero: siteImage('album/adults-hero.jpg'),
+    intro: siteImage('album/adults-intro.jpg'),
+    whatToExpect: siteImage('album/adults-what-to-expect.jpg'),
+    cta: siteImage('album/adults-cta.jpg'),
     experience: [
         siteImage('Adult Groups/Relationships.png'),
         siteImage('Adult Groups/Bible .png'),
@@ -86,10 +87,10 @@ export const adultGroups = {
 };
 
 export const youthMinistry = {
-    hero: siteImage('Youth Ministry/Untitled design (15).png'),
-    intro: siteImage('Youth Ministry/Untitled design (16).png'),
-    whatToExpect: siteImage('Youth Ministry/Untitled design (17).png'),
-    cta: siteImage('Youth Ministry/Your paragraph text.png'),
+    hero: siteImage('album/youth-hero.jpg'),
+    intro: siteImage('album/youth-intro.jpg'),
+    whatToExpect: siteImage('album/youth-what-to-expect.jpg'),
+    cta: siteImage('album/youth-cta.jpg'),
     experience: [
         siteImage('Youth Ministry/Community.png'),
         siteImage('Youth Ministry/Bible .png'),
@@ -99,7 +100,7 @@ export const youthMinistry = {
 };
 
 export const media = {
-    hero: siteImage('Media/start-here-youth-ministry.png'),
+    hero: siteImage('album/media-hero.jpg'),
     /** Latest message placeholder (“coming soon” graphic). */
     featured: siteImage('Media/Untitled design (35).png'),
     /** Building / exterior — only two files in Media; use general photo for Sunday section. */
