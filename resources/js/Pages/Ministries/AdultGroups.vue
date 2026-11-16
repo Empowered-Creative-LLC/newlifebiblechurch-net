@@ -55,7 +55,7 @@ const cards = [
                     <div class="order-2 overflow-hidden rounded-sm shadow-lg lg:order-1">
                         <img
                             :src="adultGroups.whatToExpect"
-                            alt="A teacher pointing to a memory verse poster as a class listens"
+                            alt="Adults seated in a class listening to a speaker"
                             class="h-full w-full object-cover"
                         />
                     </div>
