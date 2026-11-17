@@ -23,6 +23,7 @@ const cards = [
 
         <HeroSection
             :image-src="youthMinistry.hero"
+            image-position="80% 50%"
             eyebrow="Youth Ministry"
             title="A Place for Students to Grow in Faith and Friendship"
             lead="Middle and High School Students"
@@ -43,7 +44,7 @@ const cards = [
                         </ul>
                     </div>
                     <div class="overflow-hidden rounded-sm shadow-lg">
-                        <img :src="youthMinistry.intro" alt="Youth gathering" class="h-full w-full object-cover" />
+                        <img :src="youthMinistry.intro" alt="Young musicians leading worship on the platform" class="h-full w-full object-cover" />
                     </div>
                 </div>
             </SectionContainer>
@@ -53,7 +54,7 @@ const cards = [
             <SectionContainer>
                 <div class="grid items-center gap-12 lg:grid-cols-2">
                     <div class="order-2 overflow-hidden rounded-sm shadow-lg lg:order-1">
-                        <img :src="youthMinistry.whatToExpect" alt="Youth discussion" class="h-full w-full object-cover" />
+                        <img :src="youthMinistry.whatToExpect" alt="Students gathered in a backyard around a water slide" class="h-full w-full object-cover" />
                     </div>
                     <div class="order-1 lg:order-2">
                         <h2 class="text-3xl font-bold text-primary md:text-4xl">What to Expect</h2>

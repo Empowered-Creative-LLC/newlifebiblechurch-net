@@ -7,12 +7,19 @@ defineProps({
     lead: { type: String, default: '' },
     subtitle: { type: String, default: '' },
     align: { type: String, default: 'center' },
+    /** Optional CSS object-position for the background image (e.g. '80% 50%'); default is centered. */
+    imagePosition: { type: String, default: '' },
 });
 </script>
 
 <template>
     <section class="relative isolate min-h-[70vh] overflow-hidden md:min-h-[78vh]">
-        <img :src="imageSrc" alt="" class="absolute inset-0 h-full w-full object-cover" />
+        <img
+            :src="imageSrc"
+            alt=""
+            class="absolute inset-0 h-full w-full object-cover"
+            :style="imagePosition ? { objectPosition: imagePosition } : undefined"
+        />
         <div class="absolute inset-0 bg-primary/75 nl-grain" />
         <div
             class="relative z-10 flex min-h-[70vh] flex-col justify-center px-4 py-24 md:min-h-[78vh] md:px-8"

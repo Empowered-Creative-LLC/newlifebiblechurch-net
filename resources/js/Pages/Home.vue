@@ -37,7 +37,7 @@ import { route } from 'ziggy-js';
         </section>
 
         <section
-            class="relative bg-primary py-20 text-white"
+            class="relative bg-primary bg-cover bg-center py-20 text-white"
             :style="{ backgroundImage: `url(${home.joinSunday})` }"
         >
             <div class="absolute inset-0 bg-primary/85" />
@@ -68,7 +68,7 @@ import { route } from 'ziggy-js';
                         :href="route('ministries.kids')"
                         class="group relative flex min-h-[220px] items-end overflow-hidden rounded-sm md:min-h-[280px]"
                     >
-                        <img :src="home.kids" alt="" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                        <img :src="home.kids" alt="Children and volunteers playing on the floor of the kids ministry room" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                         <div class="absolute inset-0 bg-primary/35" />
                         <span class="relative m-4 bg-primary px-6 py-3 text-sm font-semibold uppercase tracking-wider text-white">
                             Kids
@@ -78,7 +78,7 @@ import { route } from 'ziggy-js';
                         :href="route('ministries.youth')"
                         class="group relative flex min-h-[220px] items-end overflow-hidden rounded-sm md:min-h-[280px]"
                     >
-                        <img :src="home.youth" alt="" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                        <img :src="home.youth" alt="Young people outside by a backyard water slide" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                         <div class="absolute inset-0 bg-primary/35" />
                         <span class="relative m-4 bg-primary px-6 py-3 text-sm font-semibold uppercase tracking-wider text-white">
                             Youth
@@ -90,7 +90,7 @@ import { route } from 'ziggy-js';
                         :href="route('start-here') + '#what-to-expect'"
                         class="group relative flex min-h-[180px] items-end overflow-hidden rounded-sm"
                     >
-                        <img :src="home.whatToExpect" alt="" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                        <img :src="home.whatToExpect" alt="Adults seated in rows facing the stage and screen" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                         <div class="absolute inset-0 bg-primary/35" />
                         <span class="relative m-3 bg-primary px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white md:text-sm">
                             What to Expect
@@ -100,7 +100,7 @@ import { route } from 'ziggy-js';
                         :href="route('connect')"
                         class="group relative flex min-h-[180px] items-end overflow-hidden rounded-sm"
                     >
-                        <img :src="home.getConnected" alt="" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                        <img :src="home.getConnected" alt="Adults and children sitting together at tables" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                         <div class="absolute inset-0 bg-primary/35" />
                         <span class="relative m-3 bg-primary px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white md:text-sm">
                             Get Connected
@@ -110,7 +110,7 @@ import { route } from 'ziggy-js';
                         :href="route('who-we-are')"
                         class="group relative flex min-h-[180px] items-end overflow-hidden rounded-sm"
                     >
-                        <img :src="home.meetTeam" alt="" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                        <img :src="home.meetTeam" alt="Worship band leading on stage with lyrics on the screen" class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                         <div class="absolute inset-0 bg-primary/35" />
                         <span class="relative m-3 bg-primary px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white md:text-sm">
                             What We Believe
